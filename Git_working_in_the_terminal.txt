@@ -10,10 +10,11 @@ cd ..      выход на уровень проекта
 clear      очистка консоль
 exit()     выход 
 git status что сейчас происходит
-      добовляет файл
+git add    добовляет файл
 git add .  добовляет все файлы  
 git rm --cached <file> отключает файл
 git commit -m "first commit"
+
 git branch  узнаём в какой ветке находимся
 git branch readme      создаём новыю ветку
 git branch -D readme   удоляем ветку
