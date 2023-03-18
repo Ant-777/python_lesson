@@ -8,12 +8,19 @@ git init   иницилизировать репазиторий
 cd .git    просмотр скрытой технической папки
 cd ..      выход на уровень проекта
 clear      очистка консоль
+exit()     выход 
 git status что сейчас происходит
 git add    добовляет файл
 git add .  добовляет все файлы  
 git rm --cached <file> отключает файл
-
-
+git branch  узнаём в какой ветке находимся
+git branch readme      создаём новыю ветку
+git branch -D readme   удоляем ветку
+git checkout master
+git checkout readme    переход на другую ветку
+git checkout -b new    создаём новыю ветку и сразу переходим на неё
+git commit -m "created file readme.md"
+git merge (master readme)  совместить витку
 
 
 $ git config --global user.nam "Eduard Popov"
