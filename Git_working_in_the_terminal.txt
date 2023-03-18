@@ -1,4 +1,8 @@
 git --version
+git config --list
+PS C:\Users\user> cd ~/Desktop
+pwd    показывает полный путь
+ls -la или ls -Force увидить скрытыйе файлы
 git --help
 ls или dir показывает всё что находится в этой директории
 cd переход в конкретную папку
@@ -8,50 +12,26 @@ git init   иницилизировать репазиторий
 cd .git    просмотр скрытой технической папки
 cd ..      выход на уровень проекта
 clear      очистка консоль
+cls        очистить терминал
 exit()     выход 
 git status что сейчас происходит
 git add    добовляет файл
-git add .  добовляет все файлы  
+git add .  добовляет все файлы 
+git add Git_working_in_the_terminal.txt
 git rm --cached <file> отключает файл
 git commit -m "first commit"
 
 git branch  узнаём в какой ветке находимся
 git branch readme      создаём новыю ветку
 git branch -D readme   удоляем ветку
-<<<<<<< HEAD
-git checkout master
-git checkout readme    переход на другую ветку
-=======
 git checkout master    переход на другую ветку
->>>>>>> readme
 git checkout -b new    создаём новыю ветку и сразу переходим на неё
 git commit -m "created file readme.md"
 git merge (master readme)  совместить витку
 
 
-$ git config --global user.nam "Eduard Popov"
-$ gid config --global user.email "popovich55@yandex.ru"
-git --version
-git config --list
-PS C:\Users\user> cd ~/Desktop
-pwd    показывает полный путь
-
-git init создание нового репозитория
-ls -la или ls -Force увидить скрытыйе файлы
-
-PS D:\Python> cd
-PS D:\Python> cd python_lesson
-PS D:\Python\python_lesson> git init
-clear
-git status
-git add Git_working_in_the_terminal.txt
-(git rm --cached <file>)
-
-
-
-Ctrl+l  удолить
-Ctrl+Shift+Enter новая строка
-cls  очистить терминал
-print() функция
-exit() 
-https://github.com/Ant-777/python_lesson.git   (репозиторий)
+git config --global user.nam "Eduard Popov"
+git config --global user.email "popovich55@yandex.ru"
+git remote add origin https://github.com/Ant-777/python_lesson.git
+git push -u origin master
+--------------------------------------------------------------------------
