@@ -1,0 +1,44 @@
+git --version
+git --help
+ls или dir показывает всё что находится в этой директории
+cd переход в конкретную папку
+cd Documents/
+D: ; dir; cd Python; dir; cd my_Python_lessons;
+git init   иницилизировать репазиторий
+cd .git    просмотр скрытой технической папки
+cd ..      выход на уровень проекта
+clear      очистка консоль
+git status что сейчас происходит
+git add    добовляет файл
+git add .  добовляет все файлы  
+git rm --cached <file> отключает файл
+
+
+
+
+$ git config --global user.nam "Eduard Popov"
+$ gid config --global user.email "popovich55@yandex.ru"
+git --version
+git config --list
+PS C:\Users\user> cd ~/Desktop
+pwd    показывает полный путь
+
+git init создание нового репозитория
+ls -la или ls -Force увидить скрытыйе файлы
+
+PS D:\Python> cd
+PS D:\Python> cd python_lesson
+PS D:\Python\python_lesson> git init
+clear
+git status
+git add Git_working_in_the_terminal.txt
+(git rm --cached <file>)
+
+
+
+Ctrl+l  удолить
+Ctrl+Shift+Enter новая строка
+cls  очистить терминал
+print() функция
+exit() 
+https://github.com/Ant-777/python_lesson.git   (репозиторий)
