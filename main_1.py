@@ -1,0 +1,8 @@
+print(dir)
+print(input)
+print(id)
+print(isinstance)
+print(iter)
+print(issubclass)
+print(dir())
+print(dir(__builtins__))

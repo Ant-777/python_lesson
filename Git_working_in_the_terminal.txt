@@ -6,10 +6,12 @@ ls -la или ls -Force увидить скрытыйе файлы
 git --help
 ls или dir показывает всё что находится в этой директории
 cd переход в конкретную папку
+python (имя файла) запускает файл
 cd Documents/
 D: ; dir; cd Python; dir; cd my_Python_lessons;
 git init   иницилизировать репазиторий
-cd .git    просмотр скрытой технической папки
+cd .git    просмотр скрытоit
+й технической папки
 cd ..      выход на уровень проекта
 clear      очистка консоль
 cls        очистить терминал
@@ -35,3 +37,23 @@ git config --global user.email "popovich55@yandex.ru"
 git remote add origin https://github.com/Ant-777/python_lesson.git
 git push -u origin master
 --------------------------------------------------------------------------
+
+
+
+
+git init создание нового репозитория
+
+
+PS D:\Python> cd
+PS D:\Python> cd python_lesson
+PS D:\Python\python_lesson> git init
+clear
+git status
+
+
+Ctrl+l  удолить
+Ctrl+Shift+Enter новая строка
+
+print() функция
+exit() 
+https://github.com/Ant-777/python_lesson.git   (репозиторий)
